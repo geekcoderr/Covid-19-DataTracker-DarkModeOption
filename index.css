@@ -283,8 +283,8 @@ body {
         height: 80vh;
         width: 95%;
         justify-content: space-evenly;
-        margin-top: 20px;
-        position: relative;
+        margin-top: 25%;
+        position:absolute;
     }
 
     #states,
@@ -298,28 +298,32 @@ body {
         /* border: #dd4476 2px solid; */
         display: flex;
         justify-content: center;
-        height: 9.5vh;
-        width: 16vw;
-        /* border-radius: 10vh;     */
-        position: relative;
-        margin-top: 20px;
-
+        position: sticky;
+        height: 11.5vh;
+        width: 100vw;
+        border-radius: 0vh;    
+        margin-top: 0vh;
+        margin-left: 0vw;
+        margin-right: 0vw;
     }
 
     .modebtn {
-        height: 65%;
-        width: 60%;
-        /* border-radius: 4vh; */
-        background-size: 20px;
-        margin-top: 0%;
+        height: 70%;
+        width: 40%;
+        border-radius: 100vh;
+        background-size: 40px;
 
     }
 
     .container {
-        height: 100%;
+        height: 100vh;
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: column;
+        align-items: flex-start;
+        align-content: flex-start;
+        border:#F29F05 solid;
+        padding: 0%;
     }
     .div-2-child-1 {
         width: 70%;
