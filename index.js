@@ -542,7 +542,7 @@ var changeTheme = function (modebtn) {
         // command
         modebtn.style.backgroundColor = "#FA7F08";
         modebtn.style.transition = "1s";
-        bodystyle.background = "url('./assets/darkBack.webp')";
+        bodystyle.background = "linear-gradient(120deg, #BFBFBF 10%, #595959 64%)";
         bodystyle.backgroundPosition = "center";
         bodystyle.backgroundRepeat = "no-repeat";
         bodystyle.backgroundAttachment = "fixed";

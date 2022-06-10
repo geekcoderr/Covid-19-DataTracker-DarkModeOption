@@ -283,7 +283,7 @@ body {
         height: 80vh;
         width: 95%;
         justify-content: space-evenly;
-        margin-top: 25%;
+        margin-top: 20%;
         position:absolute;
     }
 
@@ -299,7 +299,7 @@ body {
         display: flex;
         justify-content: center;
         position: sticky;
-        height: 11.5vh;
+        height: 7.5vh;
         width: 100vw;
         border-radius: 0vh;    
         margin-top: 0vh;
@@ -308,10 +308,10 @@ body {
     }
 
     .modebtn {
-        height: 70%;
-        width: 15%;
+        height: 65%;
+        width: 10%;
         border-radius: 100vh;
-        background-size: 40px;
+        background-size: 30px;
 
     }
 
@@ -322,7 +322,7 @@ body {
         flex-direction: column;
         align-items: flex-start;
         align-content: flex-start;
-        border:#F29F05 solid;
+        /* border:#F29F05 solid; */
         padding: 0%;
     }
     .div-2-child-1 {
