@@ -278,9 +278,9 @@ body {
         transition: 1s;
     }
     #div-main {
-        margin: 10px;
-        height: 90%;
-        width: 90vw;
+        margin: 5px;
+        height: 80vh;
+        width: 95%;
         justify-content: space-evenly;
         margin-top: 20px;
         position: relative;
@@ -288,7 +288,7 @@ body {
 
     #states,
     #districts {
-        font-size: 1.1vh;
+        font-size: 1.7vh;
         height: 60%;
         width: 40%;
     }
@@ -325,25 +325,27 @@ body {
         height: 100%;
         padding: 0px 10%;
         /* border:#dd2476 solid; */
-        font-size: 40px;
+        font-size: 20px;
     }
     
     .div-2-child-2 {
         width: 30%;
         height: 100%;
         padding: 0px 1%;
-        font-size: 40px;
+        font-size: 20px;
         /* border:#F27405 solid; */
         align-content: center;
     }
     #div-1 {
-        height: 25%;
+        height: 15%;
         width: 100%;
-        font-size: 35px;
     }
     #div-2{
-        height: 75%;
+        height: 85%;
         width: 100%;
-        font-size: 35px;
+    }
+    .subs {
+        font-size: 7px;
+        margin-left: 10px;
     }
 }
