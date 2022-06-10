@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Fredoka+One&family=Indie+Flower&family=Kalam:wght@300;400&family=Macondo&family=Patrick+Hand&family=Poppins:ital,wght@0,900;1,900&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Allerta+Stencil&family=Creepster&family=Fredoka+One&family=Indie+Flower&family=Kalam:wght@300;400&family=Macondo&family=Patrick+Hand&family=Poppins:ital,wght@0,900;1,900&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Allerta+Stencil&family=Comfortaa:wght@700&family=Creepster&family=Fredoka+One&family=Indie+Flower&family=Kalam:wght@300;400&family=Macondo&family=Patrick+Hand&family=Poppins:ital,wght@0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Allerta+Stencil&family=Comfortaa:wght@700&family=Creepster&family=Fredoka+One&family=Indie+Flower&family=Kalam:wght@300;400&family=Macondo&family=Patrick+Hand&family=Permanent+Marker&family=Poppins:ital,wght@0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Allerta+Stencil&family=Comfortaa:wght@700&family=Creepster&family=Fredoka+One&family=Indie+Flower&family=Kalam:wght@300;400&family=Macondo&family=Patrick+Hand&family=Permanent+Marker&family=Poppins:ital,wght@0,900;1,900&family=Raleway:ital,wght@0,600;0,900;1,700&display=swap');
+
+html {
+    height: 100%;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #262626;
+    background-color: #1fd1f9;
+    background-image: radial-gradient(circle, #1fd1f9 20%, #b621fe 74%);
+}
+
+
+#div-main {
+    overflow: hidden;
+    /* height: 100px; */
+    margin: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 75%;
+    /* max-width: 100vh;
+    min-width: 100vh; */
+
+    justify-content: space-around;
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    align-self: center;
+}
+
+#div-1 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    height: 15%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FFCC00;
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    /* background-color: #E6E6E6; */
+}
+
+#div-2 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 85%;
+    width: 100%;
+    color: #F29F05;
+    font-size: 35px;
+    background-color: #272727;
+    background-image: linear-gradient(315deg, #272727 0%, #333333 80%);
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content:space-evenly;
+    padding: 10px 10%;
+    align-content: flex-start;
+    align-items: flex-start; */
+    font-family: 'Comfortaa', cursive;
+    font-weight: 200;
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+#states,
+#districts {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 20px;
+    height: 40px;
+    overflow: visible;
+    outline: none;
+    text-align: center;
+    background-color: #404040;
+    background-color: #645240;
+    font-size: 20px;
+    padding: 0%;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 1000;
+    width: 34%;
+    color: #F2F2F2;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('assets/dropdown.png');
+    mix-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: calc(95%) center;
+    background-size: 20px;
+    font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+.ut {
+    background-color: #1fd1f9;
+    font-size: 30px;
+}
+
+.st,
+.dt {
+    background-color: #F29F05;
+    font-size: 30px;
+}
+
+/* Color Theme Swatches in Hex */
+
+.div-2-2 {
+    color: #dd4476;
+}
+
+.div-2-3 {
+    color: #ff512f;
+}
+
+.div-2-4 {
+    color: yellowgreen;
+}
+
+.div-2-5 {
+    color: tomato;
+}
+
+.subs {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+.div-2-child-1 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 10%;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.div-2-child-2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 1%;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: center;
+    font-size: 40px;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #F27405;
+
+}
+
+/* .div-2-1-child-1-2,.div-2-2-child-1-2,.div-2-3-child-1-2,.div-2-4-child-1-2,.div-2-5-child-1-2{
+    
+    
+}
+
+.div-2-1-child-1-2{
+    
+}
+.div-2-2-child-1-2{
+    
+}
+.div-2-3-child-1-2{
+    
+}
+.div-2-4-child-1-2{
+    
+}
+.div-2-5-child-1-2{
+    
+}
+ */
+
+
+.container {
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.navbar {
+    /* border: #dd4476 2px solid; */
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 12%;
+    margin: 0%;
+    align-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10vh;
+    background-color: #272727;
+    background-image: linear-gradient(315deg, #272727 0%, #333333 80%);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.modebtn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    flex-direction: column;
+    background-color: #D9D8D8;
+    height: 35%;
+    width: 70%;
+    border-radius: 4vh;
+    outline: none;
+    border: none;
+    background-image: url('./assets/darkMode.png');
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: 95px;
+    /* background-color: #FA7F08;    */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.modebtn:hover {
+    opacity: 0.5;
+    transition: 0.4 s;
+
+}
+
+@media screen and (min-width: 0px) and (max-width:800px) and (min-height:500px) and (max-height:1620px) {
+    *{
+        transition: 1s;
+    }
+    #div-main {
+        margin: 10px;
+        height: 1000px;
+        width: 90vw;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    #states,
+    #districts {
+        font-size: 1.1vh;
+        height: 60%;
+        width: 40%;
+    }
+
+    .navbar {
+        /* border: #dd4476 2px solid; */
+        display: flex;
+        justify-content: center;
+        height: 9vh;
+        width: 16vw;
+        /* border-radius: 10vh;     */
+        position: relative;
+
+    }
+
+    .modebtn {
+        height: 60%;
+        width: 70%;
+        /* border-radius: 4vh; */
+        background-size: 50px;
+        margin-top: 0%;
+
+    }
+
+    .container {
+        height: 100%;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .div-2-child-1 {
+        width: 70%;
+        height: 100%;
+        padding: 0px 10%;
+        /* border:#dd2476 solid; */
+        font-size: 40px;
+    }
+    
+    .div-2-child-2 {
+        width: 30%;
+        height: 100%;
+        padding: 0px 1%;
+        font-size: 40px;
+        /* border:#F27405 solid; */
+        align-content: center;
+    }
+}
