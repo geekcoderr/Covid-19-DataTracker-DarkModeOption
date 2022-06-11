@@ -362,16 +362,17 @@ body {
         margin-top: 12vh;
     }
     .navbar {
-        height: 10.5vh;
+        height: 8.5vh;
         width: 50vw;
         border-radius: 0% 0% 10vh 90%;
         position: fixed;
     }
 
     .modebtn {
-        height: 50%;
-        width: 7%;
-        border-radius: 20vh;
-        background-size: 20px;
+        margin-top: -5%;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-size: 50px;
     }
 }
