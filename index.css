@@ -404,7 +404,7 @@ body {
     }
     #states,
     #districts {
-        
+
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
@@ -428,4 +428,43 @@ body {
     /* border:#F27405 solid; */
     font-size: 7vw;
 }
+}
+
+@media screen and (min-width: 200px) and (max-width:1000px) and (min-height:300px) and (max-height:450px){
+    .navbar{
+        width: 100vw;
+        padding: 0%;
+    }
+    #states,
+    #districts{
+        padding: 10px;
+    border-radius: 5vh;
+    align-items: center;
+    height: 40px;
+    font-size: 20px;
+    padding:0%;
+    width: 49vw;
+    }
+    #div-1{
+        height: 15vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #div-2{
+        height: 85vh;
+    }
+    .div-2-child-1 {
+        width: 60%;
+        height: 100%;
+        /* border:#D9D8D8 solid; */
+        font-size: 4vw;
+        padding: 0% 8%  0% 8%;
+    }
+    
+    .div-2-child-2 {
+        width: 40%;
+        height: 100%;
+        /* border:#F27405 solid; */
+        font-size: 5vw;
+    }
 }
